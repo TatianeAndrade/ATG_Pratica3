@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -94,6 +95,7 @@ public class main {
 	public static void main(String args[]) throws FileNotFoundException {
 		
 		Map<String, Integer> anv = anv();
+
 		int cont = 0;
 		for (String key : anv.keySet()) {
 			System.out.println(key + " " + anv.get(key));
